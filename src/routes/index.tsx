@@ -42,11 +42,17 @@ function MailApp() {
   const [selectedId, setSelectedId] = useState<string | null>(initialEmails[0].id);
   const [collapsed, setCollapsed] = useState(false);
   const [composeOpen, setComposeOpen] = useState(false);
-  const [composeInitial, setComposeInitial] = useState<{ to?: string; subject?: string; body?: string }>({});
+  const [composeInitial, setComposeInitial] = useState<{
+    to?: string;
+    subject?: string;
+    body?: string;
+  }>({});
   const [paletteOpen, setPaletteOpen] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [customFolder, setCustomFolder] = useState<string | null>(null);
+  const [filters, setFilters] = useState<MailFilters>(defaultMailFilters);
+  const { preferences, setPreferences } = usePreferences();
 
   const folderCounts = useMemo(
     () =>
