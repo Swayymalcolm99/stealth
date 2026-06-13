@@ -287,7 +287,9 @@ export function Compose({
                 <label className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.035] px-3 py-2">
                   <Coins className="h-4 w-4 text-muted-foreground" />
                   <span className="min-w-0 flex-1">
-                    <span className="block text-[10px] uppercase tracking-wider text-muted-foreground">Postage</span>
+                    <span className="block text-[10px] uppercase tracking-wider text-muted-foreground">
+                      Postage
+                    </span>
                     <span className="flex items-center gap-1 text-xs text-foreground">
                       <input
                         value={postage}
@@ -319,7 +321,7 @@ export function Compose({
                 onChange={(e) => handleFileSelect(e, "image")}
                 className="hidden"
               />
-              
+
               {/* Attachment button */}
               <motion.button 
                 whileTap={{ scale: 0.9 }} 
