@@ -1,10 +1,12 @@
 # Concierge Pilot Feature
 
-Two-week pilot program to validate inbox access policy controls with 8-12 users in a real communication workflow.
+Two-week pilot program to validate inbox access policy controls with 8-12
+users in a real communication workflow.
 
 ## Overview
 
-The concierge pilot tests the core promise: **users can control who enters their inbox**, and this control measurably improves their email triage effort.
+The concierge pilot tests the core promise: **users can control who enters
+their inbox**, and this control measurably improves their email triage effort.
 
 ### Success Signal
 - **70%+ of participants** keep a restrictive policy enabled throughout the pilot

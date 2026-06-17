@@ -7,7 +7,10 @@
 
 ## Overview
 
-A complete two-week pilot program implementation for validating inbox access policy controls with 8-12 users. This implementation measures the core promise: users can control who enters their inbox, and this control measurably improves email triage effort.
+A complete two-week pilot program implementation for validating inbox access
+policy controls with 8-12 users. This implementation measures the core promise:
+users can control who enters their inbox, and this control measurably improves
+email triage effort.
 
 ---
 
